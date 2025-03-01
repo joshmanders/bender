@@ -23,8 +23,8 @@ export default class extends Command {
       '`!about` - Display information about the bot',
       '',
       '**Links**',
-      '📦 [GitHub Repository](https://github.com/joshmanders/bender)',
-      '🐛 [Report Issues](https://github.com/joshmanders/bender/issues)',
+      '📦 [GitHub Repository](<https://github.com/joshmanders/bender>)',
+      '🐛 [Report Issues](<https://github.com/joshmanders/bender/issues>)',
     ].join('\n');
 
     return message.reply(aboutMessage);
